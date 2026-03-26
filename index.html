@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurum Heights | Luxury Residences</title>
+    <meta
+      name="description"
+      content="Book a free site visit at Aurum Heights - premium luxury residences with world-class amenities and seamless connectivity."
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">Aurum Heights</div>
+        <nav class="nav-links">
+          <a href="#property">Residences</a>
+          <a href="#amenities">Amenities</a>
+          <a href="#floor-plans">Floor Plans</a>
+          <a href="#location">Location</a>
+        </nav>
+        <a href="#lead-form" class="btn btn-gold">Book a Site Visit</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <canvas id="hero-3d" aria-hidden="true"></canvas>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow reveal">Limited Inventory in Prime Location</p>
+          <h1 class="reveal">
+            Live Above the Ordinary in a Landmark Address
+          </h1>
+          <p class="subheadline reveal">
+            Discover ultra-luxury 3 & 4 BHK residences crafted for refined
+            living, panoramic views, and timeless elegance.
+          </p>
+          <div class="hero-cta reveal">
+            <a href="#lead-form" class="btn btn-gold">Book a Site Visit</a>
+            <a href="#property" class="btn btn-ghost">Explore Residences</a>
+          </div>
+          <div class="hero-proof reveal">
+            <span>RERA Registered</span>
+            <span>25+ Years Trusted Legacy</span>
+            <span>4,500+ Happy Families</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section property" id="property">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Property Showcase</p>
+            <h2>Signature Spaces, Curated for Luxury</h2>
+          </div>
+          <div class="property-grid">
+            <article class="property-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=80"
+                alt="Luxury apartment living room"
+                loading="lazy"
+              />
+              <div class="card-gradient"></div>
+              <h3>Designer Living Interiors</h3>
+            </article>
+            <article class="property-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1400&q=80"
+                alt="Premium exterior of modern high-rise towers"
+                loading="lazy"
+              />
+              <div class="card-gradient"></div>
+              <h3>Iconic Elevation</h3>
+            </article>
+            <article class="property-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=1400&q=80"
+                alt="Modern luxury bedroom interior"
+                loading="lazy"
+              />
+              <div class="card-gradient"></div>
+              <h3>Private Comfort Suites</h3>
+            </article>
+            <article class="property-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=80"
+                alt="Rooftop infinity pool amenity"
+                loading="lazy"
+              />
+              <div class="card-gradient"></div>
+              <h3>Sky Amenities Deck</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section amenities" id="amenities">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Amenities</p>
+            <h2>Everything You Need, Elevated</h2>
+          </div>
+          <div class="amenities-grid">
+            <article class="amenity reveal">
+              <span class="icon">🏊</span>
+              <h3>Infinity Pool</h3>
+              <p>Temperature-controlled rooftop leisure pool with skyline views.</p>
+            </article>
+            <article class="amenity reveal">
+              <span class="icon">🏋️</span>
+              <h3>Fitness Pavilion</h3>
+              <p>Premium gym, yoga studio, and wellness spaces designed for balance.</p>
+            </article>
+            <article class="amenity reveal">
+              <span class="icon">🌿</span>
+              <h3>Landscaped Greens</h3>
+              <p>Thoughtfully planned open spaces and tranquil walking trails.</p>
+            </article>
+            <article class="amenity reveal">
+              <span class="icon">🛡️</span>
+              <h3>24x7 Security</h3>
+              <p>Multi-tier surveillance, smart access controls, and concierge support.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section floor-plans" id="floor-plans">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Floor Plans</p>
+            <h2>Plan Your Perfect Home</h2>
+          </div>
+          <div class="plans-grid">
+            <button class="plan-card reveal" data-plan="./assets/floorplan-3bhk.svg">
+              <img src="./assets/floorplan-3bhk.svg" alt="3 BHK floor plan" loading="lazy" />
+              <span>3 BHK | 1980 Sq. Ft.</span>
+            </button>
+            <button class="plan-card reveal" data-plan="./assets/floorplan-4bhk.svg">
+              <img src="./assets/floorplan-4bhk.svg" alt="4 BHK floor plan" loading="lazy" />
+              <span>4 BHK | 2670 Sq. Ft.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section location" id="location">
+        <div class="container location-wrap">
+          <div class="location-map reveal">
+            <div class="map-placeholder">
+              <p>Interactive Map Placeholder</p>
+              <small>Near Business Bay, Bengaluru</small>
+            </div>
+          </div>
+          <div class="location-info reveal">
+            <p class="eyebrow">Location Advantage</p>
+            <h2>Connected to the City, Shielded from Chaos</h2>
+            <ul>
+              <li>5 mins to Metro Station</li>
+              <li>10 mins to IT Hub & SEZ</li>
+              <li>15 mins to International School Cluster</li>
+              <li>20 mins to Airport Expressway</li>
+            </ul>
+            <a href="#lead-form" class="btn btn-gold">Schedule a Visit</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section trust">
+        <div class="container trust-grid">
+          <div class="section-head reveal">
+            <p class="eyebrow">Why Buyers Trust Us</p>
+            <h2>Built by Legacy, Backed by Delivery</h2>
+          </div>
+          <div class="trust-stats">
+            <article class="stat reveal"><strong>25+</strong><span>Years of Excellence</span></article>
+            <article class="stat reveal"><strong>40+</strong><span>Projects Delivered</span></article>
+            <article class="stat reveal"><strong>4,500+</strong><span>Families Served</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lead" id="lead-form">
+        <div class="container lead-wrap">
+          <div class="lead-copy reveal">
+            <p class="eyebrow">Book Your Visit</p>
+            <h2>Luxury Homes Are Selling Fast</h2>
+            <p>
+              Reserve your preferred unit and get an exclusive guided site tour.
+              <strong>Limited units available.</strong>
+            </p>
+          </div>
+          <form class="lead-form reveal" id="bookingForm">
+            <label>
+              Name
+              <input type="text" name="name" required placeholder="Enter your full name" />
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" required placeholder="Enter phone number" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required placeholder="Enter email address" />
+            </label>
+            <button type="submit" class="btn btn-gold">Book Free Site Visit</button>
+            <p class="form-note">By submitting, you agree to receive project updates.</p>
+            <p class="success-msg" id="successMsg" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <h3>Aurum Heights</h3>
+          <p>Sales Lounge: MG Road, Bengaluru, Karnataka</p>
+        </div>
+        <div class="footer-contact">
+          <a href="tel:+919900000000">+91 99000 00000</a>
+          <a href="mailto:sales@aurumheights.com">sales@aurumheights.com</a>
+        </div>
+      </div>
+    </footer>
+
+    <a class="whatsapp-fab" href="https://wa.me/919900000000" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+      WhatsApp
+    </a>
+    <a class="mobile-sticky-cta" href="#lead-form">Book a Site Visit</a>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" id="closeLightbox" aria-label="Close floor plan preview">×</button>
+      <img id="lightboxImage" alt="Floor plan preview" />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.162.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
