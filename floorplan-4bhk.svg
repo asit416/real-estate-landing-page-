@@ -1,0 +1,19 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#121212"/>
+  <rect x="60" y="60" width="1080" height="680" rx="8" stroke="#CBA55A" stroke-width="6"/>
+  <rect x="110" y="110" width="340" height="230" fill="#1D1D1D" stroke="#CBA55A" stroke-width="3"/>
+  <rect x="490" y="110" width="300" height="230" fill="#202020" stroke="#CBA55A" stroke-width="3"/>
+  <rect x="830" y="110" width="260" height="230" fill="#1D1D1D" stroke="#CBA55A" stroke-width="3"/>
+  <rect x="110" y="380" width="250" height="280" fill="#202020" stroke="#CBA55A" stroke-width="3"/>
+  <rect x="400" y="380" width="250" height="280" fill="#1D1D1D" stroke="#CBA55A" stroke-width="3"/>
+  <rect x="690" y="380" width="220" height="280" fill="#202020" stroke="#CBA55A" stroke-width="3"/>
+  <rect x="950" y="380" width="140" height="280" fill="#1D1D1D" stroke="#CBA55A" stroke-width="3"/>
+  <text x="280" y="235" fill="#F0E6D1" font-size="30" text-anchor="middle" font-family="Arial">Living Lounge</text>
+  <text x="640" y="235" fill="#F0E6D1" font-size="28" text-anchor="middle" font-family="Arial">Master Suite</text>
+  <text x="960" y="235" fill="#F0E6D1" font-size="26" text-anchor="middle" font-family="Arial">Kitchen</text>
+  <text x="235" y="530" fill="#F0E6D1" font-size="24" text-anchor="middle" font-family="Arial">Bedroom 2</text>
+  <text x="525" y="530" fill="#F0E6D1" font-size="24" text-anchor="middle" font-family="Arial">Bedroom 3</text>
+  <text x="800" y="530" fill="#F0E6D1" font-size="22" text-anchor="middle" font-family="Arial">Bedroom 4</text>
+  <text x="1020" y="530" fill="#F0E6D1" font-size="20" text-anchor="middle" font-family="Arial">Deck</text>
+  <text x="600" y="760" fill="#CBA55A" font-size="30" text-anchor="middle" font-family="Arial">4 BHK PLAN | 2670 SQ. FT.</text>
+</svg>
